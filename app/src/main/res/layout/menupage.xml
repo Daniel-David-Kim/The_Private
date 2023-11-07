@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/interval"
+    >
+
+
+    <!-- base -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/interval"
+        >
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="17dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/menu_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:weightSum="20"
+        android:gravity="left"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/menu_profilepic"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="4"
+            >
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:layout_marginLeft="3dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="16"
+            >
+            <TextView
+                android:id="@+id/menu_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See your profile"
+                android:textColor="@color/gray_50"
+                android:textSize="13dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="30"
+            >
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="0dp"
+                android:layout_weight="29"
+                android:layout_height="0.3dp"
+                android:background="@color/gray_50"
+                />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="30"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="All shortcuts"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="27"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:weightSum="30"
+        >
+
+        <LinearLayout
+            android:id="@+id/photobook_btn"
+            android:layout_weight="13"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/radius_white"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/multiple_images"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PhotoBook"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+            android:id="@+id/articlebook_btn"
+            android:layout_weight="13"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/radius_white"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/alarm"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ArticleBook"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="30"
+            android:layout_marginBottom="15dp"
+            >
+            <Button
+                android:layout_weight="27"
+                android:id="@+id/menu_update"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_color_btn"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:text="Update Account"
+                />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="30"
+        >
+        <Button
+            android:layout_weight="27"
+            android:id="@+id/menu_logout"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_color_btn"
+            android:layout_gravity="center_horizontal"
+            android:text="log out"
+            />
+    </LinearLayout>
+
+
+
+
+    </LinearLayout> <!-- base -->
+
+</ScrollView>

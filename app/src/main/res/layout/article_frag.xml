@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <!-- 헤더 부분 -->
+        <LinearLayout
+            android:id="@+id/artbook_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:weightSum="35"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/artbook_profile"
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:src="@drawable/sphere"
+                />
+            <LinearLayout
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                >
+                <TextView
+                    android:id="@+id/artbook_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="21dp"
+                    />
+                <TextView
+                    android:id="@+id/artbook_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/artbook_return"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ret"
+                />
+        </LinearLayout>
+        <!-- 헤더 부분 -->
+
+        <!-- 글이 올라오는 부분 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="30"
+            android:visibility="visible"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/artbook_body"
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="@string/test"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+        <!-- 글이 올라오는 부분 -->
+
+    </LinearLayout>
+</ScrollView>

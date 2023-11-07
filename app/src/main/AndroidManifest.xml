@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.theprivate">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon3"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ThePrivate"
+        tools:targetApi="32">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CoreActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".AddPostActivity" />
+        <activity android:name=".RevisePostActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".PhotoBookActivity" />
+        <activity android:name=".ArticleBookActivity" />
+        <activity android:name=".ViewPostActivity" />
+        <activity android:name=".ViewPictureActivity" />
+        <activity android:name=".FindIdActivity" />
+        <activity android:name=".FindPWActivity" />
+        <activity android:name=".FindPWQuestionActivity" />
+        <activity android:name=".UpdateAccountActivity" />
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
+    </application>
+
+</manifest>

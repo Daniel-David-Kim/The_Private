@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/drawable/sub_color_btn.xml" value="0.268" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/activity_main.xml" value="0.2484375" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/article_frag.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/articlebook.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/create_post.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/dialog.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/edit_bio.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/edit_birth.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/edit_name.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/findpw_question.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/home.xml" value="0.1875" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/login.xml" value="0.2630208333333333" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/menupage.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/photobook.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/signup.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/update_account.xml" value="0.2625" />
+        <entry key="..\:/WS/ProjectWorkspace/Android_Project/FinalComplete/ThePrivate/app/src/main/res/layout/view_post.xml" value="0.2630208333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

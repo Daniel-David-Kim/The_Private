@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <!-- base -->
+    <LinearLayout
+        android:id="@+id/note_base"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="17dp"
+        />
+
+    <!-- 알림창 하나하나 -->
+    <!--LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:weightSum="39"
+        android:layout_marginBottom="7dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:src="@drawable/fenix2"
+            android:layout_weight="10"
+            >
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="25"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="you wrote a post. : '나는 내 고향이 그립다. 언제쯤 내 고향으로 돌아갈까?'"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2021-05-30 12:33"
+                android:textColor="@color/gray_50"
+                android:textSize="13dp"
+                />
+        </LinearLayout>
+        <ImageView
+            android:src="@mipmap/dot"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="2"
+            />
+    </LinearLayout-->
+
+        <!-- 알림창 하나하나 -->
+        <!--LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|center_vertical"
+            android:weightSum="39"
+            android:layout_marginBottom="7dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:src="@drawable/fenix2"
+                android:layout_weight="10"
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="25"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="you wrote a post. : '나는 내 고향이 그립다. 언제쯤 내 고향으로 돌아갈까?'"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2021-05-30 12:33"
+                    android:textColor="@color/gray_50"
+                    android:textSize="13dp"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/dot"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:visibility="gone"
+                />
+        </LinearLayout-->
+
+
+    </LinearLayout><!-- base -->
+
+</ScrollView>

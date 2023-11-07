@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:padding="25dp"
+    android:gravity="top"
+    >
+
+    <ImageView
+        android:id="@+id/signup_ret"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/back"
+        android:layout_gravity="right"
+        android:layout_marginBottom="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Private에 가입하기"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/signup_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your id"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/signup_pw1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/white"
+            />
+
+
+        <EditText
+            android:id="@+id/signup_pw2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/white"
+            />
+
+
+        <EditText
+            android:id="@+id/signup_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/white"
+            />
+
+
+        <EditText
+            android:id="@+id/signup_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your contact number"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/white"
+            />
+
+
+        <EditText
+            android:id="@+id/signup_findq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your question for finding password"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/white"
+            />
+
+
+        <EditText
+            android:id="@+id/signup_finda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your answer for finding password"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="@color/white"
+            />
+
+        <Button
+            android:id="@+id/signup_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="회원 가입"
+            android:textStyle="bold"
+            android:background="@drawable/dip_color_btn"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
